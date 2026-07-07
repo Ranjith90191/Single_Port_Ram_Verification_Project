@@ -1,0 +1,33 @@
+Dashboard
+
+Date: Tue Jul  7 14:37:39 2026
+
+User: ranjithraviraj
+
+Version: Q-2020.03-SP2-8
+Command line: urg -dir simv.vdb -format both
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH GROUP  
+100.00 100.00 100.00 100.00 --     100.00 100.00 
+
+
+-------------------------------------------------------------------------------
+Hierarchical coverage data for top-level instances 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME 
+100.00 100.00 100.00 100.00 --     100.00 top  
+
+
+-------------------------------------------------------------------------------
+Total Module Definition Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 100.00 100.00 --     100.00 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+100.00 100.00     1      
+

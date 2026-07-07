@@ -1,0 +1,14 @@
+Design Module List
+
+Total Module Definition Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 100.00 100.00 --     100.00 
+
+
+Total modules in report: 3
+-------------------------------------------------------------------------------
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME   
+100.00 --     --     100.00 --     --     ram_if 
+100.00 100.00 100.00 100.00 --     100.00 RAM    
+100.00 100.00 --     100.00 --     --     top    
+

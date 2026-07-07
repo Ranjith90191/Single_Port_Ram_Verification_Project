@@ -1,0 +1,269 @@
+[SCOREBOARD] [PASS] IDLE at Addr: 20 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 9 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 31 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 21 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 4 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 22 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 18 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 0 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 21 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 26 | Data: f4 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 26 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 14 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 18 | Data: 33 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 26 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 21 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 12 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 24 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 25 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 10 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 27 | Data: 87 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 1 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 17 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 20 | Data: d3 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 2 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 8 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 2 | Data: 97 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 11 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 10 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 9 | Data: fe | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 28 | Data: 54 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 26 | Data: 2 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 9 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 4 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 23 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 21 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 26 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 27 | Data: f5 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 6 | Data: 5e | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 4 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 20 | Data: 0 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 19 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 26 | Data: 37 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 9 | Expected: fe | Actual: fe | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 22 | Data: 2d | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 26 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 16 | Data: 63 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 19 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 20 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 26 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 16 | Data: 88 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 13 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 16 | Data: d0 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 24 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 10 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 14 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 25 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 19 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 28 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 30 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 10 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 16 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 8 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 16 | Expected: d0 | Actual: d0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 19 | Data: 73 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 22 | Data: c0 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 26 | Data: ab | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 21 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 11 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 8 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 18 | Data: a8 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 31 | Data: b | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 25 | Data: c9 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 27 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 3 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 29 | Data: b7 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 7 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 4 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 5 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 26 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 1 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 5 | Data: b7 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 26 | Expected: ab | Actual: ab | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 3 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 11 | Data: 43 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 10 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 19 | Expected: 73 | Actual: 73 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 31 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 13 | Data: 88 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 17 | Data: 5e | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 20 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 5 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 29 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 14 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 15 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 2 | Expected: 97 | Actual: 97 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 24 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 13 | Expected: 88 | Actual: 88 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 17 | Data: 75 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 24 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 14 | Data: 12 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 17 | Data: 39 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 9 | Data: 1d | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 22 | Data: 24 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 29 | Data: 21 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 22 | Data: cb | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 27 | Data: ab | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 15 | Data: 2d | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 22 | Data: b9 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 14 | Data: 4f | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 23 | Data: d4 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 10 | Data: 27 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 0 | Data: 3d | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 29 | Data: f0 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 22 | Data: ee | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 23 | Data: 2b | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 15 | Data: da | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 19 | Data: 3f | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 0 | Data: a1 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 18 | Data: f6 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 5 | Data: fb | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 7 | Data: 75 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 13 | Data: d9 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 6 | Data: e3 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 25 | Data: f5 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 29 | Data: eb | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 31 | Data: f8 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 2 | Data: 0 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 30 | Data: d8 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 4 | Data: 1e | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 20 | Data: f8 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 18 | Data: 53 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 10 | Data: 4 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 11 | Data: da | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 2 | Data: 3b | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 22 | Data: 60 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 18 | Data: a2 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 8 | Data: 94 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 25 | Data: e0 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 9 | Data: 44 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 28 | Data: 42 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 31 | Data: e1 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 2 | Data: 71 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 25 | Data: f5 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 19 | Data: 66 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 6 | Data: 3 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 6 | Data: 58 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 16 | Data: 47 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 10 | Data: fe | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 26 | Data: 68 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 7 | Data: 52 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 26 | Expected: 68 | Actual: 68 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 15 | Expected: da | Actual: da | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 29 | Expected: eb | Actual: eb | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 2 | Expected: 71 | Actual: 71 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 12 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 26 | Expected: 68 | Actual: 68 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 2 | Expected: 71 | Actual: 71 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 16 | Expected: 47 | Actual: 47 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 6 | Expected: 58 | Actual: 58 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 7 | Expected: 52 | Actual: 52 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 12 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 11 | Expected: da | Actual: da | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 17 | Expected: 39 | Actual: 39 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 3 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 19 | Expected: 66 | Actual: 66 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 8 | Expected: 94 | Actual: 94 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 21 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 14 | Expected: 4f | Actual: 4f | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 0 | Expected: a1 | Actual: a1 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 30 | Expected: d8 | Actual: d8 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 1 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 17 | Expected: 39 | Actual: 39 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 27 | Expected: ab | Actual: ab | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 0 | Expected: a1 | Actual: a1 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 12 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 7 | Expected: 52 | Actual: 52 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 26 | Expected: 68 | Actual: 68 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 6 | Expected: 58 | Actual: 58 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 30 | Expected: d8 | Actual: d8 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 19 | Expected: 66 | Actual: 66 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 3 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 27 | Expected: ab | Actual: ab | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 3 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 4 | Expected: 1e | Actual: 1e | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 27 | Expected: ab | Actual: ab | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 25 | Expected: f5 | Actual: f5 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 16 | Expected: 47 | Actual: 47 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 13 | Expected: d9 | Actual: d9 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 30 | Expected: d8 | Actual: d8 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 19 | Expected: 66 | Actual: 66 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 0 | Expected: a1 | Actual: a1 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 21 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 16 | Expected: 47 | Actual: 47 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 31 | Expected: e1 | Actual: e1 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 1 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 19 | Expected: 66 | Actual: 66 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 9 | Expected: 44 | Actual: 44 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 18 | Expected: a2 | Actual: a2 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 21 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 20 | Expected: f8 | Actual: f8 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 95 | Data: 74 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 94 | Data: bd | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 149 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 243 | Data: 27 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 237 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 103 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 217 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 167 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 81 | Expected: 39 | Actual: 39 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 89 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 166 | Data: 1f | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 149 | Data: 8b | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 184 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 221 | Data: 3a | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 230 | Data: a8 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 123 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 149 | Expected: 8b | Actual: 8b | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 61 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 168 | Data: 61 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 50 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 109 | Expected: d9 | Actual: d9 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 252 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 235 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 181 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 70 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 63 | Data: 70 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 120 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 231 | Expected: 52 | Actual: 52 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 199 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 101 | Expected: fb | Actual: fb | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 99 | Data: 83 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 179 | Data: 78 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 168 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 119 | Data: ba | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 229 | Expected: fb | Actual: fb | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 33 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 35 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 242 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] READ at Addr: 143 | Expected: da | Actual: da | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 129 | Data: e7 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 191 | Data: 32 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 187 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 44 | Data: 64 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 164 | Data: c1 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 32 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 194 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 55 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 33 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 117 | Expected: 8b | Actual: 8b | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 187 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] RESET active: Output High-Z | Reset: 0 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] RESET active: Output High-Z | Reset: 0 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 187 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] WRITE at Addr: 26 | Data: dc | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 24 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 31 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] READ at Addr: 19 | Expected: 0 | Actual: 0 | Reset: 1 | W_EN: 0 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 25 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 22 | Reset: 1 | W_EN: 0 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 14 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] WRITE at Addr: 28 | Data: e2 | Reset: 1 | W_EN: 1 | R_EN: 0
+[SCOREBOARD] [PASS] IDLE at Addr: 29 | Reset: 1 | W_EN: 1 | R_EN: 1
+[SCOREBOARD] [PASS] IDLE at Addr: 27 | Reset: 1 | W_EN: 0 | R_EN: 0
+==================================================
+            RAM SCOREBOARD FINAL REPORT           
+==================================================
+ Total Passed Comparisons : 263
+ Total Failed Comparisons : 0
+==================================================

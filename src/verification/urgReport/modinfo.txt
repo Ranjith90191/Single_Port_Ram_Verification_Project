@@ -1,0 +1,378 @@
+===============================================================================
+Module : ram_if
+===============================================================================
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 --     --     100.00 --     --     
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_11/ranjith/Single_Port_Ram/ram_interface.sv
+
+Module self-instances :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME    
+100.00 --     --     100.00 --     --     top.vif 
+
+
+
+-------------------------------------------------------------------------------
+Toggle Coverage for Module : ram_if
+                Total Covered Percent 
+Totals          7     7       100.00  
+Total Bits      56    56      100.00  
+Total Bits 0->1 28    28      100.00  
+Total Bits 1->0 28    28      100.00  
+
+                          
+Ports          1 1 100.00 
+Port Bits      2 2 100.00 
+Port Bits 0->1 1 1 100.00 
+Port Bits 1->0 1 1 100.00 
+
+                              
+Signals          6  6  100.00 
+Signal Bits      54 54 100.00 
+Signal Bits 0->1 27 27 100.00 
+Signal Bits 1->0 27 27 100.00 
+
+Port Details
+    Toggle Toggle 1->0 Toggle 0->1 Direction 
+clk Yes    Yes         Yes         INPUT     
+
+Signal Details
+              Toggle Toggle 1->0 Toggle 0->1 
+reset         Yes    Yes         Yes         
+data_in[7:0]  Yes    Yes         Yes         
+write_enb     Yes    Yes         Yes         
+read_enb      Yes    Yes         Yes         
+address[7:0]  Yes    Yes         Yes         
+data_out[7:0] Yes    Yes         Yes         
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Module Instance : top.vif
+===============================================================================
+
+Instance :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 --     --     100.00 --     --     
+
+
+Instance's subtree :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 --     --     100.00 --     --     
+
+
+Module : 
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME   
+100.00 --     --     100.00 --     --     ram_if 
+
+
+Parent : 
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME 
+100.00 100.00 --     100.00 --     --     top  
+
+
+Subtrees :
+
+
+no children
+----------------
+
+
+-------------------------------------------------------------------------------
+Since this is the module's only instance, the coverage report is the same as for the module.
+===============================================================================
+Module : RAM
+===============================================================================
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 100.00 100.00 --     100.00 
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_11/ranjith/Single_Port_Ram/ram.sv
+
+Module self-instances :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME    
+100.00 100.00 100.00 100.00 --     100.00 top.DUT 
+
+
+
+-------------------------------------------------------------------------------
+Line Coverage for Module : RAM
+
+             Line No.   Total   Covered  Percent
+TOTAL                       10       10   100.00
+ALWAYS             40        5        5   100.00
+ALWAYS             51        5        5   100.00
+
+39                       begin 
+40         1/1            if(!reset)
+41         1/1          	foreach(memory[i])begin
+42         1/1          		memory[i]=0;
+43                      	end
+44         1/1            else if(write_enb && !read_enb) 
+45         1/1             memory[address] <= data_in;
+                        MISSING_ELSE
+46                       end 
+47                       
+48                      //Memory Read Block  Read Operation : When read_enb=1
+49                      always @(posedge clk)
+50                       begin
+51         1/1            if(!reset) 
+52         1/1              data_out <= 8'bz;
+53         1/1            else if(read_enb && !write_enb)
+54         1/1              data_out <= memory[address];
+55                        else
+56         1/1              data_out <= 8'bz;
+
+-------------------------------------------------------------------------------
+Cond Coverage for Module : RAM
+
+               Total   Covered  Percent
+Conditions          6        6   100.00
+Logical             6        6   100.00
+Non-Logical         0        0
+Event               0        0
+
+ LINE       44
+ EXPRESSION (write_enb && ((!read_enb)))
+             ----1----    ------2------
+
+-1- -2- Status
+ 0   1  Covered
+ 1   0  Covered
+ 1   1  Covered
+
+ LINE       53
+ EXPRESSION (read_enb && ((!write_enb)))
+             ----1---    -------2------
+
+-1- -2- Status
+ 0   1  Covered
+ 1   0  Covered
+ 1   1  Covered
+
+-------------------------------------------------------------------------------
+Toggle Coverage for Module : RAM
+                Total Covered Percent 
+Totals          7     7       100.00  
+Total Bits      50    50      100.00  
+Total Bits 0->1 25    25      100.00  
+Total Bits 1->0 25    25      100.00  
+
+                            
+Ports          7  7  100.00 
+Port Bits      50 50 100.00 
+Port Bits 0->1 25 25 100.00 
+Port Bits 1->0 25 25 100.00 
+
+Port Details
+              Toggle Toggle 1->0 Toggle 0->1 Direction 
+address[4:0]  Yes    Yes         Yes         INPUT     
+write_enb     Yes    Yes         Yes         INPUT     
+read_enb      Yes    Yes         Yes         INPUT     
+data_in[7:0]  Yes    Yes         Yes         INPUT     
+clk           Yes    Yes         Yes         INPUT     
+reset         Yes    Yes         Yes         INPUT     
+data_out[7:0] Yes    Yes         Yes         OUTPUT    
+
+
+-------------------------------------------------------------------------------
+Branch Coverage for Module : RAM
+         Line No. Total Covered Percent 
+Branches          6     6       100.00  
+IF       40       3     3       100.00  
+IF       51       3     3       100.00  
+
+
+40           if(!reset)
+             -1-  
+41         	foreach(memory[i])begin
+           	==>
+42         		memory[i]=0;
+43         	end
+44           else if(write_enb && !read_enb) 
+                  -2-  
+45            memory[address] <= data_in;
+              ==>
+              MISSING_ELSE
+              ==>
+
+Branches:
+
+-1- -2- Status  
+1   -   Covered 
+0   1   Covered 
+0   0   Covered 
+
+
+51           if(!reset) 
+             -1-  
+52             data_out <= 8'bz;
+               ==>
+53           else if(read_enb && !write_enb)
+                  -2-  
+54             data_out <= memory[address];
+               ==>
+55           else
+56             data_out <= 8'bz;
+               ==>
+
+Branches:
+
+-1- -2- Status  
+1   -   Covered 
+0   1   Covered 
+0   0   Covered 
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Module Instance : top.DUT
+===============================================================================
+
+Instance :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 100.00 100.00 --     100.00 
+
+
+Instance's subtree :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 100.00 100.00 --     100.00 
+
+
+Module : 
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME 
+100.00 100.00 100.00 100.00 --     100.00 RAM  
+
+
+Parent : 
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME 
+100.00 100.00 --     100.00 --     --     top  
+
+
+Subtrees :
+
+
+no children
+----------------
+
+
+-------------------------------------------------------------------------------
+Since this is the module's only instance, the coverage report is the same as for the module.
+===============================================================================
+Module : top
+===============================================================================
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 --     100.00 --     --     
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_11/ranjith/Single_Port_Ram/ram_top.sv
+
+Module self-instances :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME 
+100.00 100.00 --     100.00 --     --     top  
+
+
+
+-------------------------------------------------------------------------------
+Line Coverage for Module : top
+
+             Line No.   Total   Covered  Percent
+TOTAL                        5        5   100.00
+ALWAYS              4        2        2   100.00
+INITIAL            21        3        3   100.00
+
+3                           bit clk;
+4          2/2              always #10 clk = ~clk;
+5                           
+6                           ram_if vif(clk); 
+7                       
+8                           RAM DUT (
+9                               .clk(vif.clk),
+10                              .reset(vif.reset),
+11                              .data_in(vif.data_in),
+12                              .write_enb(vif.write_enb),
+13                              .read_enb(vif.read_enb),
+14                              .address(vif.address[4:0]),
+15                              .data_out(vif.data_out)
+16                          );
+17                          
+18                          ram_test_regression test;
+19                          
+20                          initial begin
+21         1/1                  clk = 0;
+22         1/1                  test = new(vif.DRV, vif.MON);
+23         1/1                  test.run(); 
+
+-------------------------------------------------------------------------------
+Toggle Coverage for Module : top
+                Total Covered Percent 
+Totals          1     1       100.00  
+Total Bits      2     2       100.00  
+Total Bits 0->1 1     1       100.00  
+Total Bits 1->0 1     1       100.00  
+
+                            
+Signals          1 1 100.00 
+Signal Bits      2 2 100.00 
+Signal Bits 0->1 1 1 100.00 
+Signal Bits 1->0 1 1 100.00 
+
+Signal Details
+    Toggle Toggle 1->0 Toggle 0->1 
+clk Yes    Yes         Yes         
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Module Instance : top
+===============================================================================
+
+Instance :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 --     100.00 --     --     
+
+
+Instance's subtree :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 100.00 100.00 --     100.00 
+
+
+Module : 
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME 
+100.00 100.00 --     100.00 --     --     top  
+
+
+Parent : 
+
+none
+----------------
+
+
+Subtrees :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME 
+100.00 100.00 100.00 100.00 --     100.00 DUT  
+100.00 --     --     100.00 --     --     vif  
+
+
+
+-------------------------------------------------------------------------------
+Since this is the module's only instance, the coverage report is the same as for the module.

@@ -1,0 +1,12 @@
+Design Hierarchy
+
+
+----------------
+SCORE  LINE   COND   TOGGLE FSM    BRANCH     
+100.00 100.00 100.00 100.00 --     100.00 top 
+  
+  ----------------
+  SCORE  LINE   COND   TOGGLE FSM    BRANCH     
+  100.00 100.00 100.00 100.00 --     100.00 DUT 
+  100.00 --     --     100.00 --     --     vif 
+

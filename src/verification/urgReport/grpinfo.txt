@@ -1,0 +1,296 @@
+Group : ram_pkg::ram_driver::cg
+
+===============================================================================
+Group : ram_pkg::ram_driver::cg
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/fetools/work_area/frontend/Batch_11/ranjith/Single_Port_Ram/ram_driver.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                
+100.00 1      100    1        64           64            top.test.env.drv.cg 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   ram_pkg::ram_driver::cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        0         8       100.00  
+Crosses   8        0         8       100.00  
+
+
+Variables for Group  ram_pkg::ram_driver::cg
+
+
+VARIABLE  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+c_address 2        0         2       100.00  100  1      1        0                    
+c_write   2        0         2       100.00  100  1      1        2                    
+c_read    2        0         2       100.00  100  1      1        2                    
+c_reset   2        0         2       100.00  100  1      1        2                    
+
+
+Crosses for Group  ram_pkg::ram_driver::cg
+
+
+CROSS           EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+c_cross_op_addr 8        0         8       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c_address
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for c_address
+
+
+Bins
+
+NAME       COUNT AT LEAST 
+oob_addr   50    1        
+valid_addr 213   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c_write
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for c_write
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 127   1        
+auto[1] 136   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c_read
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for c_read
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 140   1        
+auto[1] 123   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c_reset
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for c_reset
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 2     1        
+auto[1] 261   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross c_cross_op_addr
+
+
+Samples crossed: c_address c_write c_read
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 8        0         8       100.00          
+
+
+Automatically Generated Cross Bins for c_cross_op_addr
+
+
+Bins
+
+c_address  c_write c_read  COUNT AT LEAST 
+oob_addr   auto[0] auto[0] 13    1        
+oob_addr   auto[0] auto[1] 10    1        
+oob_addr   auto[1] auto[0] 16    1        
+oob_addr   auto[1] auto[1] 11    1        
+valid_addr auto[0] auto[0] 30    1        
+valid_addr auto[0] auto[1] 74    1        
+valid_addr auto[1] auto[0] 81    1        
+valid_addr auto[1] auto[1] 28    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.test.env.drv.cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                    
+100.00 100.00    1      100    1        1            64           64                    ram_pkg::ram_driver::cg 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.test.env.drv.cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        0         8       100.00  
+Crosses   8        0         8       100.00  
+
+
+Variables for Group Instance  top.test.env.drv.cg
+
+
+VARIABLE  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+c_address 2        0         2       100.00  100  1      1        0                    
+c_write   2        0         2       100.00  100  1      1        2                    
+c_read    2        0         2       100.00  100  1      1        2                    
+c_reset   2        0         2       100.00  100  1      1        2                    
+
+
+Crosses for Group Instance  top.test.env.drv.cg
+
+
+CROSS           EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+c_cross_op_addr 8        0         8       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c_address
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for c_address
+
+
+Bins
+
+NAME       COUNT AT LEAST 
+oob_addr   50    1        
+valid_addr 213   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c_write
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for c_write
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 127   1        
+auto[1] 136   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c_read
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for c_read
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 140   1        
+auto[1] 123   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c_reset
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for c_reset
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 2     1        
+auto[1] 261   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross c_cross_op_addr
+
+
+Samples crossed: c_address c_write c_read
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 8        0         8       100.00          
+
+
+Automatically Generated Cross Bins for c_cross_op_addr
+
+
+Bins
+
+c_address  c_write c_read  COUNT AT LEAST 
+oob_addr   auto[0] auto[0] 13    1        
+oob_addr   auto[0] auto[1] 10    1        
+oob_addr   auto[1] auto[0] 16    1        
+oob_addr   auto[1] auto[1] 11    1        
+valid_addr auto[0] auto[0] 30    1        
+valid_addr auto[0] auto[1] 74    1        
+valid_addr auto[1] auto[0] 81    1        
+valid_addr auto[1] auto[1] 28    1        
+
+
