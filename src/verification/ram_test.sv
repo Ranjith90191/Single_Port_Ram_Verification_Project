@@ -34,16 +34,16 @@ class ram_test_regression;
             env.scb.run();
         join_none 
         
-        $display("\n--- PHASE 1: NORMAL RANDOM TRAFFIC (20 txns) ---");
+        $display("\n--- PHASE 1: NORMAL RANDOM TRAFFIC (100 txns) ---");
         env.gen.gen_traffic(100, normal_tx);
         
-        $display("\n--- PHASE 2: WRITE-ONLY TRAFFIC (20 txns) ---");
+        $display("\n--- PHASE 2: WRITE-ONLY TRAFFIC (50 txns) ---");
         env.gen.gen_traffic(50, write_tx);
         
-        $display("\n--- PHASE 3: READ-ONLY TRAFFIC (20 txns) ---");
+        $display("\n--- PHASE 3: READ-ONLY TRAFFIC (50 txns) ---");
         env.gen.gen_traffic(50, read_tx);
         
-        $display("\n--- PHASE 4: OUT-OF-BOUNDS ADDRESSES (10 txns) ---");
+        $display("\n--- PHASE 4: OUT-OF-BOUNDS ADDRESSES (50 txns) ---");
         env.gen.gen_traffic(50, oob_tx);
         
         $display("\n--- PHASE 5: MID-SIMULATION RESET ---");
