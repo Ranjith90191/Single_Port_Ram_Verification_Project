@@ -1,12 +1,10 @@
 # Single-Port RAM (Random Access Memory)
 
-https://htmlpreview.github.io/?https://github.com/Ranjith90191/Single_Port_Ram_Verification_Project/blob/main/src/verification/urgReport/dashboard.html
-
 [![Language: SystemVerilog](https://img.shields.io/badge/Language-SystemVerilog-00599C?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/SystemVerilog)
 [![Design: RTL](https://img.shields.io/badge/Design-RTL_Logic-FF4136?style=for-the-badge)](/src/design/ram.sv)
 [![Platform: Linux](https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
 [![Status: Verified](https://img.shields.io/badge/Status-Verified-2ECC40?style=for-the-badge)](#)
 
-[![Cov_Report](https://shields.io🚀-blue?style=for-the-badge)](https://htmlpreview.github.io/?https://github.com/Ranjith90191/Single_Port_Ram_Verification_Project/blob/main/src/verification/urgReport/dashboard.html)
+[![Cov_Report](https://img.shields.io/badge/CovReport-FF4136?style=for-the-badge)](https://htmlpreview.github.io/?https://github.com/Ranjith90191/Single_Port_Ram_Verification_Project/blob/main/src/verification/urgReport/dashboard.html)
 
 
