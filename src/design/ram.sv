@@ -52,9 +52,6 @@ always @(posedge clk)
     data_out <= 8'bz;
   else if(read_enb && !write_enb)
     data_out <= memory[address];
-  else
-    data_out <= 8'bz;
- end
 endmodule 
 
 
